@@ -1,0 +1,27 @@
+.table{
+    border: 1px solid #000;
+    width: 100%;
+
+    &__row{
+
+    }
+
+    &__cell{
+        border: 1px solid #000;
+        padding: 15px;
+    }
+
+    &__cell-content{
+        display: flex;
+        align-items: center;
+        .caret-down{
+            margin-left: 5px;
+            font-size: 9px;
+        }
+    }
+
+    &__cell-text{
+        font-size: 13px;
+        color: $text-header;
+    }
+}

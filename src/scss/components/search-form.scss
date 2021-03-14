@@ -1,0 +1,19 @@
+.search-form{
+    &__input{
+        font-size: 16px;
+        padding: 13px 16px;
+        border-radius: 5px;
+        margin-right: 20px;
+        border: 1px solid $light-gray;
+        background-color: transparent;
+        transition: border .2s linear;
+
+        &:hover{
+            border-color: $darken-gray;
+        }
+
+        &:focus{
+            border-color: $darken-gray;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.control{
+    display: flex;
+
+    i{
+        margin-right: 20px;
+        cursor: pointer;
+        transition: color .2s linear;
+
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+
+    &__trash:hover{
+        color: #f00;
+    }
+    &__redo:hover{
+        color: #00f;
+    }
+    &__rocket:hover{
+        color: #ccc;
+    }
+}

@@ -17,6 +17,9 @@ body{
     box-sizing: border-box;
 }
 
+.wrapper{
+    padding: 40px;
+}
 .container{
     width: 100%;
     max-width: 1170px;
@@ -24,4 +27,39 @@ body{
     margin: 0 auto;
 }
 
+.btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px 16px;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 1px solid $light-gray;
+    background-color: transparent;
+    transition: border .2s linear;
+
+    &:last-child{
+        margin-right: 0;
+    }
+
+    &:hover{
+        border-color: $darken-gray;
+    }
+
+    &:focus{
+        border-color: $darken-gray;
+    }
+
+    &--red{
+        background-color: #FC3969;
+        box-shadow: 0 3px 7px rgba(#FC3969, .3);
+        color: #fff;
+    }
+}
 // Components
+@import "components/header";
+@import "components/search-form";
+@import "components/btn-switch";
+@import "components/bonus";
+@import "components/table";
+@import "components/control";
+@import "components/check";

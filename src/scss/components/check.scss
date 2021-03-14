@@ -1,0 +1,16 @@
+.check{
+    display: flex;
+    margin-right: 20px;
+    cursor: pointer;
+    &__input{
+        appearance: none;
+    }
+
+    &__box{
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-color: #E9ECF0;
+        border-radius: 5px;
+    }
+}

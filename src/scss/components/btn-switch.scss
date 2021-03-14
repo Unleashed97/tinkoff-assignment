@@ -1,0 +1,33 @@
+.btn-switch{
+    display: flex;
+    width: 200px;
+    font-size: 14px;
+
+    &__left, &__right{
+        width: 50%;
+        text-align: center;
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid $light-gray;
+        cursor: pointer;
+        transition: border .2s linear;
+
+        &:hover{
+            border-color: $darken-gray;
+        }
+        &:focus{
+            border-color: $darken-gray;
+        }
+    }
+
+    &__left{
+        border-radius: 5px 0 0 5px;
+    }
+    &__right{
+        border-radius: 0 5px 5px 0;
+
+        &:hover{
+
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.bonus{
+    background-color: #FEFCDD;
+    padding: 14px 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    span{
+        background-color: #F8E71C;
+        margin-right: 40px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: #000;
+    }
+
+    &__text{
+        font-size: 14px;
+        color: #878F8E;
+        text-align: center;
+    }
+}
